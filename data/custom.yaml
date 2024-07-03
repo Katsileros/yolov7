@@ -1,0 +1,9 @@
+train: /home/katsi/catkin_ws/src/agriculture_robot/src/ml_algos/external/yolov7/data/train.txt
+val: /home/katsi/catkin_ws/src/agriculture_robot/src/ml_algos/external/yolov7/data/test.txt
+test: /home/katsi/catkin_ws/src/agriculture_robot/src/ml_algos/external/yolov7/data/test.txt
+
+# number of classes
+nc: 1
+
+# class names
+names: ['weed-0']
